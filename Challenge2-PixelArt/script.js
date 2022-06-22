@@ -9,7 +9,7 @@ function PixelArt(el, rows, cols) {
     for(let i1 = 0; i1 < cols; i1++){
         const boxLine = document.createElement('div');
         boxLine.setAttribute('class','boxLine');
-        for(j1 = 0; j1 < rows; j1++){
+        for(let j1 = 0; j1 < rows; j1++){
             const squre = document.createElement('div');
             squre.setAttribute('class','squre');
             squre.setAttribute('draggable','true');
@@ -19,7 +19,7 @@ function PixelArt(el, rows, cols) {
     }
     const boxLine = document.createElement('div');
     boxLine.setAttribute('class','boxLine');
-    for(j1 = 0; j1 < rows; j1++){
+    for(let j1 = 0; j1 < rows; j1++){
         const squre = document.createElement('div');
         squre.setAttribute('class','squre');
         squre.setAttribute('id','palette'+j1);

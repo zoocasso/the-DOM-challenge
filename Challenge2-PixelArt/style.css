@@ -1,0 +1,41 @@
+.boxLine{
+    display:flex;
+}
+
+.squre{
+    border: 1px solid gray;
+    height: 50px;
+    width: 50px;
+}
+
+#palette0{
+    background-color:aliceblue;
+}
+
+#palette1{
+    background-color:aqua;
+}
+#palette2{
+    background-color:beige;
+}
+#palette3{
+    background-color:brown ;
+}
+#palette4{
+    background-color:salmon ;
+}
+#palette5{
+    background-color:seagreen ;
+}
+#palette6{
+    background-color:violet ;
+}
+#palette7{
+    background-color:black ;
+}
+#palette8{
+    background-color:white ;
+}
+#palette9{
+    background-color:gray ;
+}

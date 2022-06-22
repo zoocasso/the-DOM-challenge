@@ -27,7 +27,6 @@ function PixelArt(el, rows, cols) {
     }
     grid.appendChild(boxLine);
     grid.addEventListener("click",onClick);
-    grid.addEventListener("drag",onDrag);
     grid.addEventListener("dragstart",onDragstart);
     grid.addEventListener("dragenter",onDragenter);
 
@@ -36,10 +35,6 @@ function PixelArt(el, rows, cols) {
         if(target.className == 'squre'){
             target.style.backgroundColor = 'black';    
         }
-    }
-    
-    function onDrag(event){
-        console.log('drag')
     }
     
     function onDragstart(event){
